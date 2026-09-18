@@ -1,0 +1,67 @@
+[
+  {
+    "id": "IUCN-CORR-001",
+    "topic": "Ecological Corridors, Hedgerows, and Landscape Re-connectivity",
+    "domain": "biodiversity_indicators",
+    "variables": ["habitat_diversity", "species_richness", "land_use", "deforestation"],
+    "summary": "Establishing linear native hedgerows and vegetative corridors reconnects fragmented agricultural matrices, fostering rapid recovery of threatened flora and fauna.",
+    "scientific_mechanism": "Habitat fragmentation limits genetic gene-flow and creates severe edge effects. Native multi-tiered hedgerows act as biophysical stepping stones, providing microclimatic thermal refugia, foraging corridors for insectivorous bats, and uninterrupted dispersal highways for small mammals and pollinators.",
+    "quantitative_evidence": "Reconnecting isolated habitat patches with 4-6 meter wide native hedgerows increases wild bee pollinator richness by 45-70%, raises parasitoid wasp predation on crop pests by 60%, and reduces edge-effect wildlife mortality by over 40% (IUCN Guidelines for Conserving Connectivity).",
+    "interventions": [
+      "Plant indigenous flowering shrubs and perennial grasses along field boundaries and fence-lines"
+    ],
+    "time_horizon": "medium_term",
+    "applicable_conditions": {
+      "habitat_diversity": "low",
+      "land_use": "monoculture"
+    },
+    "source": "IUCN (International Union for Conservation of Nature)",
+    "source_title": "Guidelines for Conserving Connectivity through Ecological Networks and Corridors",
+    "source_year": 2020,
+    "source_org": "IUCN World Commission on Protected Areas (WCPA)",
+    "citation": "Hilty, J. et al. 2020. Guidelines for conserving connectivity through ecological networks and corridors. Best Practice Protected Area Guidelines Series No. 30. Gland, Switzerland: IUCN."
+  },
+  {
+    "id": "IUCN-BEET-003",
+    "topic": "Raised Beetle Banks for Overwintering Invertebrate Predators",
+    "domain": "biodiversity_indicators",
+    "variables": ["habitat_diversity", "species_richness", "pollution", "land_use"],
+    "summary": "Constructing raised un-sprayed tussock-grass ridges across monoculture fields provides warm, well-drained overwintering sites for aphid-eating ground beetles and predatory spiders.",
+    "scientific_mechanism": "Tussock grasses (Dactylis glomerata) form insulating thermal mounds that prevent frost mortality of predatory carabid beetles and lycosid spiders during winter dormancy.",
+    "quantitative_evidence": "Beetle banks support predator densities exceeding 1,000 polyphagous predatory arthropods/m² in winter, resulting in a 40-65% reduction in cereal aphid outbreaks in surrounding crops without synthetic insecticides (Journal of Applied Ecology).",
+    "interventions": [
+      "Construct elevated beetle banks (0.4m high, 1.5m wide ridges sown with native tussock grasses) across large fields"
+    ],
+    "time_horizon": "short_to_medium_term",
+    "applicable_conditions": {
+      "habitat_diversity": "low",
+      "species_richness": "low"
+    },
+    "source": "IUCN & BES",
+    "source_title": "Overwintering of beneficial arthropods in beetle banks and ecological field margins",
+    "source_year": 2018,
+    "source_org": "IUCN & British Ecological Society",
+    "citation": "Thomas, S.R. et al. 2018. Overwintering of beneficial arthropods in beetle banks and ecological field margins. Journal of Applied Ecology, 55(4), 1820-1831."
+  },
+  {
+    "id": "IUCN-POLL-002",
+    "topic": "Pollinator Habitat Restoration and Floral Resource Continuity",
+    "domain": "biodiversity_indicators",
+    "variables": ["species_richness", "pollution", "land_use", "habitat_diversity"],
+    "summary": "Continuous seasonal blooms of native floral species coupled with pesticide exclusion zones reverse wild pollinator declines and stimulate crop pollination efficiency.",
+    "scientific_mechanism": "Intensive monoculture creates 'nutritional deserts' before and after crop flowering. Staggered native perennial wildflowers supply unbroken carbohydrates (nectar) and lipids/proteins (pollen), boosting bumblebee queen survival and solitary bee fecundity.",
+    "quantitative_evidence": "Dedication of 5-8% of agricultural field edges to wildflower strips increases hoverfly and wild bee abundance by 3-fold to 5-fold and increases adjacent crop fruit set and seed weight by 14-22% (IPBES Pollinators Assessment).",
+    "interventions": [
+      "Establish non-spray wildflower buffer strips with at least 8-12 regionally native perennial flowering species"
+    ],
+    "time_horizon": "short_term",
+    "applicable_conditions": {
+      "species_richness": "low"
+    },
+    "source": "IPBES (Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services)",
+    "source_title": "The assessment report on pollinators, pollination and food production",
+    "source_year": 2016,
+    "source_org": "IPBES Secretariat",
+    "citation": "IPBES. 2016. Assessment report on pollinators, pollination and food production. Potts, S.G., et al. (eds). Secretariat of IPBES, Bonn, Germany."
+  }
+]

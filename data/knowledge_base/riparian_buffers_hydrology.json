@@ -1,0 +1,66 @@
+[
+  {
+    "id": "UNEP-RIP-001",
+    "topic": "Riparian Buffer Zones for Nutrient Interception and Aquatic Biodiversity Protection",
+    "domain": "human_impact_and_water",
+    "variables": ["pollution", "soil_moisture", "species_richness", "habitat_diversity"],
+    "summary": "Multi-tier riparian vegetative filter strips intercept agricultural agrochemical runoff (nitrogen, phosphorus, pesticides), preventing eutrophication and safeguarding aquatic/amphibian taxa.",
+    "scientific_mechanism": "Vegetated riparian zones slow surface runoff velocity, causing suspended sediment particles to settle. Dense fibrous grassroots uptake dissolved nitrates, while anaerobic riparian microsites promote microbial denitrification, transforming nitrate into harmless atmospheric N2 gas before reaching stream channels.",
+    "quantitative_evidence": "A 15-30 meter three-zone riparian buffer (trees, shrubs, native grasses) traps 70-95% of sediment runoff, reduces nitrate-nitrogen leaching into waterways by 60-85%, and restores benthic macroinvertebrate diversity by 40% within 3 years (UNEP / EPA Riparian Synthesis).",
+    "interventions": [
+      "Establish three-zone riparian buffers: native hydrophilic trees adjacent to water, shrub understory, and dense perennial grass filter strips adjacent to fields"
+    ],
+    "time_horizon": "medium_term",
+    "applicable_conditions": {
+      "pollution": "moderate_to_high"
+    },
+    "source": "UNEP (United Nations Environment Programme)",
+    "source_title": "Options for Action: Protecting Water Resources through Nature-based Solutions",
+    "source_year": 2020,
+    "source_org": "UNEP & Ramsar Convention",
+    "citation": "UNEP. 2020. Nature-based Solutions for Water Security: A Guidance Document for Policy and Practice. Nairobi, Kenya."
+  },
+  {
+    "id": "UNEP-DEFOR-002",
+    "topic": "Micro-catchment Rainwater Harvesting and Contour Bunds on Deforested Slopes",
+    "domain": "human_impact_and_land",
+    "variables": ["deforestation", "rainfall", "soil_moisture", "habitat_diversity"],
+    "summary": "Deforestation on sloping lands accelerates topsoil stripping, reduces groundwater recharge, and destroys microhabitats. Assisted earthworks halt runoff erosion.",
+    "scientific_mechanism": "Loss of forest canopies eliminates rain droplet interception, increasing kinetic soil detachment. Earthworks (semi-circular bunds, contour terracing) mechanically slow water runoff, reducing hydraulic shear stress and retaining seeds and organic matter essential for spontaneous regeneration.",
+    "quantitative_evidence": "Contour water harvesting bunds reduce soil erosion by 75-90%, increase deep soil moisture recharge by 22-35%, and retain moisture in root zones for 3-4 additional weeks after sporadic downpours (FAO/WOCAT TerrAfrica).",
+    "interventions": [
+      "Construct earthen semi-circular water-bunds and stone contour lines along contours to trap ephemeral rainfall runoff"
+    ],
+    "time_horizon": "medium_term",
+    "applicable_conditions": {
+      "deforestation": "moderate_to_high",
+      "rainfall": "low"
+    },
+    "source": "FAO & WOCAT (World Overview of Conservation Approaches and Technologies)",
+    "source_title": "Sustainable Land Management in Practice: Guidelines and Best Practices for Sub-Saharan Africa and Drylands",
+    "source_year": 2018,
+    "source_org": "FAO / WOCAT",
+    "citation": "Liniger, H. et al. 2018. Sustainable Land Management in Practice: Guidelines and Best Practices for Drylands. FAO, Rome and WOCAT, Bern."
+  },
+  {
+    "id": "UNEP-ANR-003",
+    "topic": "Assisted Natural Regeneration for Forest Canopy and Habitat Recovery",
+    "domain": "human_impact_and_land",
+    "variables": ["deforestation", "habitat_diversity", "species_richness"],
+    "summary": "Assisted natural regeneration (ANR) accelerates passive ecological succession by protecting native rootstocks and suppressing competitive grasses.",
+    "scientific_mechanism": "Protecting existing wild rootstocks leverages pre-established root architecture, achieving canopy closure 2-3x faster than artificial nursery sapling planting while preserving localized genetic biodiversity adaptations.",
+    "quantitative_evidence": "Restores native woody plant density to >800 stems/ha within 4 years and increases forest-dependent bird species richness by 55% at one-third the cost of conventional tree planting (FAO & CBD Technical Series).",
+    "interventions": [
+      "Apply assisted natural regeneration (ANR) by fencing degraded parcels and liberating native pioneer saplings from competing invasive vines"
+    ],
+    "time_horizon": "long_term",
+    "applicable_conditions": {
+      "deforestation": "moderate_to_high"
+    },
+    "source": "FAO & CBD (Convention on Biological Diversity)",
+    "source_title": "The Forest and Landscape Restoration Mechanism: Guidelines for Assisted Natural Regeneration",
+    "source_year": 2019,
+    "source_org": "FAO & CBD",
+    "citation": "FAO. 2019. Guidelines for assisted natural regeneration in forest landscape restoration. Rome, FAO."
+  }
+]

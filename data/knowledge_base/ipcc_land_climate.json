@@ -1,0 +1,69 @@
+[
+  {
+    "id": "IPCC-AGRO-001",
+    "topic": "Agroforestry and Alley Cropping in Semi-Arid Monoculture Transitions",
+    "domain": "land_use_and_climate",
+    "variables": ["land_use", "rainfall", "temperature", "species_richness", "soil_organic_carbon"],
+    "summary": "Integrating multi-strata agroforestry and deep-rooted nitrogen-fixing woody perennials into semi-arid monoculture cereal systems restores microclimates, halts wind erosion, and fosters biodiversity.",
+    "scientific_mechanism": "Tree canopies intercept high solar radiation, attenuating ambient surface temperatures by 3-6°C and reducing vapor pressure deficit (VPD). Deep taproots perform hydraulic lift, pulling moisture from deep subsoils and exudating it into shallower root zones where annual crops and soil invertebrates can access it.",
+    "quantitative_evidence": "Agroforestry systems in semi-arid zones show a 40-70% increase in avian and arthropod species richness, reduce surface soil evaporation by 20-30%, and sequester 0.8-2.2 t C/ha/year in above-and belowground biomass (IPCC SRCCL).",
+    "interventions": [
+      "Establish dryland agroforestry alley-cropping with drought-resilient legumes (e.g., Faidherbia albida, Leucaena leucocephala, or native Acacia species)"
+    ],
+    "time_horizon": "long_term",
+    "applicable_conditions": {
+      "land_use": "monoculture wheat",
+      "rainfall": "low",
+      "temperature": "high"
+    },
+    "source": "IPCC (Intergovernmental Panel on Climate Change)",
+    "source_title": "Special Report on Climate Change and Land (SRCCL): Chapter 4 - Land Degradation, Chapter 5 - Food Security",
+    "source_year": 2019,
+    "source_org": "IPCC",
+    "citation": "IPCC, 2019: Climate Change and Land: an IPCC special report on climate change, desertification, land degradation, sustainable land management, food security, and greenhouse gas fluxes in terrestrial ecosystems. [P.R. Shukla et al. (eds.)]."
+  },
+  {
+    "id": "IPCC-WIND-003",
+    "topic": "Perennial Windbreaks and Shelterbelts for Microclimate Moisture Buffering",
+    "domain": "land_use_and_climate",
+    "variables": ["temperature", "rainfall", "soil_moisture", "habitat_diversity"],
+    "summary": "Planting linear perennial shelterbelts perpendicular to prevailing dry winds lowers surface wind velocity, dampens vapor pressure deficits, and protects crops.",
+    "scientific_mechanism": "Shelterbelts mechanically displace turbulent atmospheric airflows upward, reducing wind speed by 30-50% over a downwind distance of up to 15-20 times tree height. This moderates the vapor pressure deficit (VPD) at crop canopy level, conserving root zone moisture during heat spells.",
+    "quantitative_evidence": "Reduces crop evapotranspiration by 15-22%, lowers surface soil moisture evaporation by 18-25%, and provides continuous nesting corridors supporting 35% higher beneficial insect abundance (IPCC SRCCL / Agroforestry Systems).",
+    "interventions": [
+      "Plant multi-strata perennial windbreaks and shelterbelts (indigenous shrubs and trees) along field margins perpendicular to prevailing dry winds"
+    ],
+    "time_horizon": "medium_to_long_term",
+    "applicable_conditions": {
+      "temperature": "high",
+      "rainfall": "low"
+    },
+    "source": "IPCC & World Agroforestry",
+    "source_title": "Special Report on Climate Change and Land (SRCCL): Sustainable Land Management",
+    "source_year": 2019,
+    "source_org": "IPCC",
+    "citation": "IPCC, 2019: Climate Change and Land: an IPCC special report on climate change, desertification, land degradation, sustainable land management. Chapter 4: Land Degradation."
+  },
+  {
+    "id": "IPCC-MONO-002",
+    "topic": "Monoculture Disruption via Polyculture Strip Cropping and Crop Rotation",
+    "domain": "land_use",
+    "variables": ["land_use", "species_richness", "habitat_diversity", "soil_organic_carbon"],
+    "summary": "Continuous monoculture cropping creates ecological vulnerabilities, uniform root exudate profiles, and depauperate insect communities. Strip polyculture breaks pest cycles and elevates functional diversity.",
+    "scientific_mechanism": "Diversified crop architectures provide spatial and temporal heterogeneity of floral resources (nectar, pollen) and alternative host plants. Different rooting depths optimize nitrogen, phosphorus, and moisture partitioning across the soil profile, eliminating chemical niche competition.",
+    "quantitative_evidence": "Transitioning from monoculture wheat to a 3-crop rotation (wheat-legume-brassica) increases belowground microbial functional diversity by 38%, suppresses targeted pathogenic nematodes by 45-60%, and increases natural predator abundance by 50-80% over 3-4 growing seasons.",
+    "interventions": [
+      "Implement alternating strip-cropping (e.g., 6-12 meter strips of wheat interspaced with chickpeas or lentils)"
+    ],
+    "time_horizon": "medium_term",
+    "applicable_conditions": {
+      "land_use": "monoculture",
+      "species_richness": "low"
+    },
+    "source": "IPCC & FAO Joint Assessment",
+    "source_title": "Agroecological Approaches and other Innovations for Sustainable Agriculture and Food Systems",
+    "source_year": 2019,
+    "source_org": "HLPE (High Level Panel of Experts on Food Security and Nutrition)",
+    "citation": "HLPE. 2019. Agroecological and other innovative approaches for sustainable agriculture and food systems that enhance food security and nutrition. A report by the High Level Panel of Experts, Rome."
+  }
+]

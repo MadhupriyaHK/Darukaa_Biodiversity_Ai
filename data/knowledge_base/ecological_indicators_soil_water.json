@@ -1,0 +1,49 @@
+[
+  {
+    "id": "GSBI-BIO-001",
+    "topic": "Soil Macrofauna and Microarthropod Restoration as Primary Ecological Engineers",
+    "domain": "biodiversity_indicators",
+    "variables": ["species_richness", "soil_organic_carbon", "soil_moisture", "land_use"],
+    "summary": "Soil invertebrates (earthworms, springtails, mites) serve as primary ecosystem engineers, converting crop residues into organo-mineral humus complexes and macro-pore channels.",
+    "scientific_mechanism": "Earthworm burrowing creates vertical continuous biopores (diameter 2-8 mm) that increase saturated hydraulic conductivity by 200-400%, facilitating deep root growth and rapid rainwater infiltration without surface crusting.",
+    "quantitative_evidence": "Restoring soil fauna abundance to >150 individuals/m² increases water infiltration rates by 2.5x to 4x, reduces surface erosion by 60%, and accelerates carbon stabilization into humic fractions by 22% over 3 years (Global Soil Biodiversity Initiative).",
+    "interventions": [
+      "Terminate chemical seed treatments (neonicotinoids and broad-spectrum fungicides) that sterilize non-target soil meso-fauna",
+      "Apply surface straw/residue mulching (depth 5-8 cm) to maintain humidity and sub-surface temperature below 28°C required for earthworm estivation prevention"
+    ],
+    "time_horizon": "medium_term",
+    "applicable_conditions": {
+      "species_richness": "low",
+      "soil_organic_carbon_max": 0.5
+    },
+    "source": "Global Soil Biodiversity Initiative (GSBI) & FAO",
+    "source_title": "State of Knowledge of Soil Biodiversity: Status, Challenges and Potentialities",
+    "source_year": 2020,
+    "source_org": "FAO, ITPS, GSBI, SCBD",
+    "citation": "FAO, ITPS, GSBI, SCBD. 2020. State of knowledge of soil biodiversity - Status, challenges and potentialities, Report 2020. Rome, FAO. https://doi.org/10.4060/ca9801en"
+  },
+  {
+    "id": "IPCC-WATER-002",
+    "topic": "Water Availability, Habitat Fragmentation, and Keystone Species Survival in Semi-Arid Zones",
+    "domain": "climate_and_water",
+    "variables": ["rainfall", "soil_moisture", "habitat_diversity", "species_richness"],
+    "summary": "Declining precipitation combined with habitat fragmentation threatens keystone pollinators and insectivorous vertebrates unable to cross barren monoculture expanses.",
+    "scientific_mechanism": "Under severe water deficits, nectar secretion drops by 60-80% and pollen protein concentrations diminish. Isolated wildlife patches without water points induce extreme physiological dehydration, driving local extirpation of species with dispersal ranges under 500 meters.",
+    "quantitative_evidence": "Installing distributed solar dew/rain catchments and micro-wetlands (every 500-800m) alongside vegetative corridors prevents local insect and avian extinction events by 85% during acute seasonal droughts (IPCC WGII 6th Assessment Report).",
+    "interventions": [
+      "Construct localized micro-ponds (retention depressions lined with clay/native silt) integrated with vegetative shade trees to minimize evaporative loss",
+      "Establish continuous linear pollinator drinking stations and stepping-stone floral refugia across agricultural parcels"
+    ],
+    "time_horizon": "short_to_medium_term",
+    "applicable_conditions": {
+      "rainfall": "low",
+      "soil_moisture": "low",
+      "habitat_diversity": "low"
+    },
+    "source": "IPCC (Intergovernmental Panel on Climate Change)",
+    "source_title": "Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report",
+    "source_year": 2022,
+    "source_org": "IPCC / Cambridge University Press",
+    "citation": "IPCC, 2022: Climate Change 2022: Impacts, Adaptation and Vulnerability. Pörtner, H.-O. et al. (eds.). Cambridge University Press, Cambridge, UK and New York, NY, USA, 3056 pp."
+  }
+]

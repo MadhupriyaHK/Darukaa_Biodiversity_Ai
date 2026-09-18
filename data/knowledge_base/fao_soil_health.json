@@ -1,0 +1,92 @@
+[
+  {
+    "id": "FAO-SOC-001",
+    "topic": "Soil Organic Carbon and Microbial Diversity in Arid and Semi-Arid Soils",
+    "domain": "soil_health",
+    "variables": ["soil_organic_carbon", "soil_moisture", "species_richness", "rainfall", "land_use"],
+    "summary": "Legume-based cover cropping and diversified crop rotations in low organic carbon (<0.6%) semi-arid soils significantly accelerate biological carbon sequestration and microbial biodiversity.",
+    "scientific_mechanism": "Leguminous root exudates release low-molecular-weight organic carbon compounds that stimulate mycorrhizal fungi and nitrogen-fixing Rhizobia. This biological activity forms water-stable micro-aggregates (<250 μm), protecting organic matter from oxidation under elevated temperatures and expanding the soil hydraulic retention curve.",
+    "quantitative_evidence": "Increases soil organic carbon by 15-25% over 2-3 years, improves available water capacity (AWC) by 12-18%, and raises bacterial and fungal taxonomic richness by 30-35% compared to conventional monoculture fallows.",
+    "interventions": [
+      "Introduce legume-based winter or off-season cover crops (e.g., Vicia villosa, Medicago sativa)"
+    ],
+    "time_horizon": "medium_term",
+    "applicable_conditions": {
+      "soil_organic_carbon_max": 0.8,
+      "rainfall": "low",
+      "land_use": "monoculture"
+    },
+    "source": "FAO (Food and Agriculture Organization of the United Nations)",
+    "source_title": "Recarbonizing Global Soils: A technical manual of recommended management practices. Volume 3: Cropland, Grassland, Integrated systems",
+    "source_year": 2021,
+    "source_org": "FAO & Global Soil Partnership",
+    "citation": "FAO. 2021. Recarbonizing Global Soils: A technical manual of recommended management practices. Rome, FAO. https://doi.org/10.4060/cb6378en"
+  },
+  {
+    "id": "FAO-TILL-004",
+    "topic": "Conservation Tillage and Residue Mulching for Soil Structure Preservation",
+    "domain": "soil_health",
+    "variables": ["soil_organic_carbon", "soil_moisture", "species_richness", "land_use"],
+    "summary": "Zero or conservation tillage combined with surface crop residue retention protects fungal hyphae networks, shields topsoil from droplet impact, and halts organic carbon mineralization.",
+    "scientific_mechanism": "Eliminating mechanical inversion prevents exposing protected organic carbon inside micro-aggregates to atmospheric oxidation. Retaining 3-4 t/ha surface straw buffers diurnal soil temperature swings and maintains sub-surface relative humidity required for epigeic soil fauna.",
+    "quantitative_evidence": "Reduces topsoil erosion by 60-80%, lowers peak soil temperature by 4-6°C, and increases epigeic earthworm population density by 2-fold compared to conventional mouldboard plowing (FAO Conservation Agriculture Series).",
+    "interventions": [
+      "Implement minimum tillage (conservation tillage) combined with high-residue surface mulching (3-4 t/ha)"
+    ],
+    "time_horizon": "medium_term",
+    "applicable_conditions": {
+      "soil_organic_carbon_max": 0.8,
+      "land_use": "monoculture"
+    },
+    "source": "FAO (Food and Agriculture Organization of the United Nations)",
+    "source_title": "Conservation Agriculture: Training guide for extension agents and farmers",
+    "source_year": 2016,
+    "source_org": "FAO",
+    "citation": "FAO. 2016. Conservation Agriculture: Training guide for extension agents and farmers in Eastern Europe and Central Asia. Rome, FAO."
+  },
+  {
+    "id": "FAO-PH-002",
+    "topic": "Soil pH Modulation and Nutrient Bioavailability for Plant and Soil Biota",
+    "domain": "soil_health",
+    "variables": ["soil_ph", "species_richness", "soil_organic_carbon"],
+    "summary": "Extreme soil pH (<5.5 or >8.2) suppresses beneficial microbial assemblages, reduces phosphorus bioavailability, and severely restricts native understory plant establishment.",
+    "scientific_mechanism": "At low pH (<5.5), soluble aluminum (Al3+) and manganese (Mn2+) reach phytotoxic concentrations, inhibiting root elongation and suppressing nitrifying bacteria. At high pH (>8.0), phosphorus fixes with calcium into insoluble calcium phosphate, causing nutrient lockup and suppressing mycorrhizal colonization.",
+    "quantitative_evidence": "Buffering pH towards optimal 6.2-7.2 via composted bio-amendments increases microbial enzymatic activity (dehydrogenase and phosphatase) by 40-60% and native plant seedling recruitment by 25-30% within 1-2 growing cycles.",
+    "interventions": [
+      "Apply localized dolomitic limestone or agricultural gypsum based on cation exchange capacity (CEC)",
+      "Incorporate high-humic matured compost or pyrolyzed biochar to buffer pH and stimulate biological chelation"
+    ],
+    "time_horizon": "short_term",
+    "applicable_conditions": {
+      "soil_ph_min": 0.0,
+      "soil_ph_max": 5.8
+    },
+    "source": "FAO",
+    "source_title": "The State of the World's Land and Water Resources for Food and Agriculture: Systems at breaking point (SOLAW 2021)",
+    "source_year": 2021,
+    "source_org": "FAO",
+    "citation": "FAO. 2021. The State of the World's Land and Water Resources for Food and Agriculture: Systems at breaking point. Synthesis report. Rome. FAO."
+  },
+  {
+    "id": "FAO-MOIST-003",
+    "topic": "Soil Moisture Retention and Microbial Resilience Under Drought Stress",
+    "domain": "soil_health",
+    "variables": ["soil_moisture", "rainfall", "temperature", "soil_organic_carbon"],
+    "summary": "Severe soil moisture deficits combined with high surface temperatures cause rapid desiccation of epigeic earthworms and collapse of arbuscular mycorrhizal networks.",
+    "scientific_mechanism": "Soil organic matter acts as a biological sponge, holding up to 20 times its weight in water. Each 1% increase in SOC increases soil water holding capacity by approximately 150,000 to 170,000 liters per hectare, buffering the root zone against evapotranspiration spikes during dry spells.",
+    "quantitative_evidence": "Increasing soil organic carbon from 0.4% to 1.2% extends soil moisture retention by 8-14 days during drought periods and maintains microbial biomass carbon above 180 mg/kg.",
+    "interventions": [
+      "Construct swales and keyline contour bunds to intercept surface runoff and recharge localized perched water tables"
+    ],
+    "time_horizon": "short_to_medium_term",
+    "applicable_conditions": {
+      "soil_moisture": "low",
+      "rainfall": "low"
+    },
+    "source": "FAO & ITPS",
+    "source_title": "Status of the World's Soil Resources (SWSR) - Technical Summary",
+    "source_year": 2015,
+    "source_org": "FAO / Intergovernmental Technical Panel on Soils",
+    "citation": "FAO and ITPS. 2015. Status of the World's Soil Resources (SWSR) – Technical Summary. Food and Agriculture Organization of the United Nations and Intergovernmental Technical Panel on Soils, Rome, Italy."
+  }
+]

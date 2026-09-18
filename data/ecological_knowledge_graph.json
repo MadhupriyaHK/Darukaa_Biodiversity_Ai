@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "variables": {
+    "soil_ph": {
+      "type": "numeric",
+      "unit": "pH",
+      "optimal_range": [6.0, 7.5],
+      "impact_links": ["nutrient_availability", "microbial_activity", "species_richness"]
+    },
+    "soil_organic_carbon": {
+      "type": "numeric",
+      "unit": "%",
+      "critical_threshold": 0.6,
+      "healthy_threshold": 1.5,
+      "impact_links": ["soil_moisture", "microbial_biomass", "soil_aggregation", "carbon_storage"]
+    },
+    "soil_moisture": {
+      "type": "categorical_or_numeric",
+      "levels": ["very_low", "low", "moderate", "high", "excessive"],
+      "impact_links": ["plant_transpiration", "earthworm_survival", "microbial_respiration"]
+    },
+    "rainfall": {
+      "type": "categorical_or_numeric",
+      "levels": ["very_low", "low", "moderate", "high", "erratic"],
+      "impact_links": ["soil_moisture", "groundwater_recharge", "salinization_risk"]
+    },
+    "temperature": {
+      "type": "categorical_or_numeric",
+      "levels": ["low", "moderate", "high", "extreme"],
+      "impact_links": ["evapotranspiration_rate", "organic_matter_oxidation", "thermal_stress"]
+    },
+    "land_use": {
+      "type": "categorical",
+      "categories": [
+        "monoculture wheat", "monoculture cereal", "monoculture corn", "monoculture soy",
+        "industrial cropland", "degraded pasture", "rotational grazing", "agroforestry", "poly-culture"
+      ],
+      "impact_links": ["habitat_fragmentation", "chemical_dependency", "floral_resource_continuity"]
+    },
+    "species_richness": {
+      "type": "categorical_or_numeric",
+      "levels": ["critically_low", "low", "moderate", "high", "biodiverse"],
+      "impact_links": ["trophic_stability", "pollination_services", "biological_pest_control"]
+    },
+    "habitat_diversity": {
+      "type": "categorical_or_numeric",
+      "levels": ["homogenous", "low", "moderate", "heterogeneous", "complex"],
+      "impact_links": ["microclimate_refugia", "wildlife_dispersal", "predator_prey_balance"]
+    },
+    "pollution": {
+      "type": "categorical",
+      "levels": ["none", "low", "moderate", "high", "severe"],
+      "impact_links": ["soil_toxicity", "waterway_eutrophication", "pollinator_mortality"]
+    },
+    "deforestation": {
+      "type": "categorical",
+      "levels": ["none", "low", "moderate", "severe", "historical"],
+      "impact_links": ["soil_erosion", "microclimate_collapse", "edge_effect_wildlife_loss"]
+    }
+  },
+  "causal_chains": [
+    {
+      "id": "CHAIN_ARID_MONOCULTURE",
+      "trigger_criteria": {
+        "soil_organic_carbon": "<= 0.6",
+        "rainfall": ["low", "very_low"],
+        "land_use": ["monoculture", "monoculture wheat", "monoculture cereal", "industrial cropland"]
+      },
+      "causal_sequence": [
+        "Low soil organic carbon (<0.6%) impairs macro-aggregate stability and reduces soil water retention capacity",
+        "Low rainfall combined with poor water holding capacity intensifies root-zone moisture deficit and accelerates mycorrhizal die-off",
+        "Monoculture cropping eliminates structural diversity, creating acute floral resource bottlenecks and bare soil exposure",
+        "Combined stress triggers microclimatic heating, rapid topsoil crusting, and severe collapse of beneficial soil invertebrates and wild pollinators"
+      ],
+      "restoration_synergy": "Synergistic intervention: Agroforestry alley cropping with drought-hardy legumes + minimum tillage + organic residue mulching simultaneously elevates SOC, moderates soil temperature, provides nectar highways, and restores hydraulic lift.",
+      "priority_knowledge_ids": ["FAO-SOC-001", "IPCC-AGRO-001", "AGRO-INTER-002", "GSBI-BIO-001"]
+    },
+    {
+      "id": "CHAIN_POLLUTION_FRAGMENTATION",
+      "trigger_criteria": {
+        "pollution": ["moderate", "high", "severe"],
+        "habitat_diversity": ["low", "homogenous"],
+        "species_richness": ["low", "critically_low"]
+      },
+      "causal_sequence": [
+        "Elevated agrochemical or industrial runoff introduces chemical toxicity into surface aquifers and soil profiles",
+        "Homogeneous landscapes lack vegetative buffer buffers, allowing unattenuated contaminant plume dispersion into critical microhabitats",
+        "Direct toxicity coupled with loss of ecological refugia drives rapid extirpation of sensitive macroinvertebrates, amphibians, and wild bees"
+      ],
+      "restoration_synergy": "Synergistic intervention: Multi-tier riparian buffer bio-filters + pesticide exclusion zones + native hedgerow corridors to capture runoff and reconnect breeding habitat.",
+      "priority_knowledge_ids": ["UNEP-RIP-001", "IUCN-CORR-001", "IUCN-POLL-002"]
+    },
+    {
+      "id": "CHAIN_HEAT_DROUGHT_DEFORESTATION",
+      "trigger_criteria": {
+        "temperature": ["high", "extreme"],
+        "rainfall": ["low", "very_low"],
+        "deforestation": ["moderate", "severe"]
+      },
+      "causal_sequence": [
+        "Canopy removal eliminates vegetative shade and rainfall interception, elevating surface soil temperatures by 4-8°C",
+        "Intense heat accelerates microbial decomposition of residual soil humus without replenishing leaf litter",
+        "Desiccated topsoils form hydrophobic crusts that repel sporadic torrential rains, driving severe gully erosion and preventing spontaneous seedling germination"
+      ],
+      "restoration_synergy": "Synergistic intervention: Assisted Natural Regeneration (ANR) + contour bunds / micro-catchments + pioneer nitrogen-fixing shelterbelts to restore microclimate and break the desertification loop.",
+      "priority_knowledge_ids": ["UNEP-DEFOR-002", "IPCC-AGRO-001", "IPCC-WATER-002"]
+    },
+    {
+      "id": "CHAIN_ACIDIC_DEPLETED_SOIL",
+      "trigger_criteria": {
+        "soil_ph": "<= 5.5",
+        "soil_organic_carbon": "<= 0.8",
+        "species_richness": ["low", "critically_low"]
+      },
+      "causal_sequence": [
+        "Soil pH below 5.5 triggers phytotoxic Al3+ mobilization and precipitates active phosphorus compounds",
+        "Low organic carbon provides inadequate buffering capacity to sequester free heavy metal ions or foster saprophytic fungi",
+        "Root stunted crops and native plants fail to develop symbiosis with Rhizobia, leading to depauperate aboveground and belowground food webs"
+      ],
+      "restoration_synergy": "Synergistic intervention: Biochar and humic compost amendment + targeted dolomitic calcification + acid-tolerant mycorrhizal fungal inoculants.",
+      "priority_knowledge_ids": ["FAO-PH-002", "FAO-SOC-001", "AGRO-INTER-002"]
+    }
+  ]
+}

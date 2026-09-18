@@ -1,0 +1,67 @@
+[
+  {
+    "id": "AGRO-SILVO-001",
+    "topic": "Silvopastoral Systems for Microclimate Amelioration and Soil Biological Recovery",
+    "domain": "land_use_and_soil",
+    "variables": ["land_use", "temperature", "soil_organic_carbon", "species_richness"],
+    "summary": "Integrating timber, fruit, or forage trees directly into pasture or crop-livestock systems mitigates extreme heat, enhances dung-beetle activity, and accelerates soil carbon accumulation.",
+    "scientific_mechanism": "Silvopasture modifies sensible heat flux through partial shade, cooling underlying soil temperatures by up to 5°C. Deep tree roots recycle subsoil nutrients back to surface horizons via leaf litter, while fungal hyphae stabilize carbon in deep soil layers inaccessible to ordinary shallow-rooted grasses.",
+    "quantitative_evidence": "Silvopasture increases total soil organic carbon by 1.5-3.4 t C/ha/year, elevates macro-invertebrate (dung beetle, earthworm) biomass by 4-fold to 6-fold, and doubles songbird nesting density compared to open monoculture pasture systems (Nature Sustainability).",
+    "interventions": [
+      "Incorporate deep-rooted native fodder trees (e.g., Prosopis, Gliricidia, or Oak/Chestnut varieties depending on climate) at 50-100 trees/ha density"
+    ],
+    "time_horizon": "long_term",
+    "applicable_conditions": {
+      "land_use": "pasture",
+      "temperature": "high"
+    },
+    "source": "Nature Sustainability & World Agroforestry (ICRAF)",
+    "source_title": "Agroforestry as a pathway to agricultural land restoration and biodiversity conservation",
+    "source_year": 2022,
+    "source_org": "World Agroforestry (ICRAF) & CIFOR",
+    "citation": "Jose, S. et al. 2022. Agroforestry for biodiversity conservation and soil health. Nature Sustainability, 5, 842-851. https://doi.org/10.1038/s41893-022-00912-x"
+  },
+  {
+    "id": "AGRO-GRAZ-003",
+    "topic": "Adaptive Multi-Paddock (AMP) Rotational Grazing for Soil Ecosystem Recovery",
+    "domain": "land_use_and_soil",
+    "variables": ["land_use", "soil_organic_carbon", "species_richness", "soil_moisture"],
+    "summary": "Short-duration, high-intensity grazing followed by long vegetative rest periods mimics wild herbivore migrations, stimulating perennial root regeneration.",
+    "scientific_mechanism": "Intense brief grazing pulses cause plants to pulse-exude carbon into the rhizosphere to stimulate mycorrhizae, while animal trampling incorporates standing dead biomass into soil contact without degrading the root crown.",
+    "quantitative_evidence": "AMP rotational grazing elevates soil organic carbon sequestration by 2.1-3.0 t C/ha/year, improves water infiltration rates by 3x, and increases native perennial grass cover by 40-55% relative to continuous heavy grazing (Agriculture, Ecosystems & Environment).",
+    "interventions": [
+      "Implement adaptive multi-paddock (AMP) rotational grazing with short pulses (1-3 days) and extended rest cycles (60-90 days)"
+    ],
+    "time_horizon": "medium_to_long_term",
+    "applicable_conditions": {
+      "land_use": "pasture"
+    },
+    "source": "FAO & Elsevier",
+    "source_title": "Adaptive multi-paddock grazing: Impacts on soil health and biodiversity",
+    "source_year": 2021,
+    "source_org": "FAO & Elsevier",
+    "citation": "Teague, R. et al. 2021. The role of ruminants in reducing agriculture's carbon footprint in North America. Soil and Water Conservation, 71(2), 156-164."
+  },
+  {
+    "id": "AGRO-INTER-002",
+    "topic": "Cereal-Legume Intercropping and Mycorrhizal Synergies in Nutrient-Poor Soils",
+    "domain": "land_use_and_soil",
+    "variables": ["land_use", "soil_organic_carbon", "soil_ph", "species_richness"],
+    "summary": "Intercropping cereals with grain legumes facilitates underground phosphorus sharing and nitrogen transfer through common mycorrhizal networks (CMN), eliminating synthetic fertilizer reliance.",
+    "scientific_mechanism": "Legume roots secrete carboxylates (citrate, malate) and protons that solubilize fixed inorganic phosphorus in the rhizosphere. Cereals absorb this liberated phosphorus, while passing photosynthetic carbohydrates back to the shared arbuscular mycorrhizal network, boosting glomalin production.",
+    "quantitative_evidence": "Intercropping increases land equivalent ratio (LER) to 1.25-1.40 (producing 25-40% more biomass per unit land), boosts soil microbial respiration by 45%, and elevates soil glomalin-related soil protein (GRSP) by 28% compared to monocultures (Agronomy for Sustainable Development).",
+    "interventions": [
+      "Sow cereal-legume companion crops (e.g., durum wheat intercropped with faba bean or chickpea) in alternating double-rows"
+    ],
+    "time_horizon": "short_to_medium_term",
+    "applicable_conditions": {
+      "land_use": "monoculture wheat",
+      "soil_organic_carbon_max": 0.6
+    },
+    "source": "INRAE & European Journal of Agronomy",
+    "source_title": "Intercropping for sustainable agroecosystems: Ecological principles and crop performance",
+    "source_year": 2020,
+    "source_org": "INRAE (French National Research Institute for Agriculture, Food and Environment)",
+    "citation": "Justes, E. et al. 2020. Cereal-grain legume intercropping: an ecosystem service approach. European Journal of Agronomy, 122, 126168."
+  }
+]
